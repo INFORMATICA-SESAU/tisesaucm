@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <!-- Detalhes do Cabeçalho -->
+    <%- include('./layouts/header') %>
+  <body>
+    <!-------------- Menu -------------->
+    <%- include('./layouts/menu') %>
+    <!------------------------------------------->
+    <!----------------- BANNERS ----------------->
+    <!------------------------------------------->
+   <%- include('./layouts/banners') %>
+    <!-------------------------------------------->
+    <!----------------- HELP DESK ------------------>
+    <!-------------------------------------------->
+    <section class="container-fluid" id="bd-helpdesk">
+      <div class="row">
+        <div class="container" id="ct-helpdesk">
+          <a href="https://campomourao.freshdesk.com/support/tickets" target="_blank">
+            <div class="row">
+              <header class="col-12">
+                <h2>Acessar o sistema de Suporte</h2>
+              </header>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------->
+    <!-------------- SYSTEMS HEALTH -------------->
+    <!-------------------------------------------->
+    <section class="container-fluid" id="bd-systems">
+      <div class="row">
+        <div class="container" id="ct-systems">
+          <div class="row">
+            <header class="col-12 content-t">
+              <h2>LINKS DE SISTEMAS DA SAÚDE</h2>
+            </header>
+          </div>
+          <article class="row content-sub-t">
+            <div class="col-12">
+              <h3>Escolha um sistema que você precisa utilizar.</h3>
+            </div>
+          </article>
+          <div class="row">
+            <div class="col-12 content-area">
+              <div class="owl-carousel owl-theme" id="c-systems">
+                <div class="item">
+                  <a href="http://idssaude.ids.inf.br:8085/campomourao/idssaude/idssaude.dll" target="_blank">
+                    <div class="block f-ubuntu">
+                        <div class="img-block">
+                          <div style="background: url(/img/icons/html5.svg) no-repeat"></div>
+                        </div>
+                        <div class="c-block">
+                          <h4>HTML5</h4>
+                          <h5 class="bt-block">Abrir</h5>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="http://cadastro.saude.gov.br/novocartao" target="_blank">
+                    <div class="block f-ubuntu">
+                      <div class="img-block">
+                        <div style="background: url(/img/icons/cadsus.svg) no-repeat"></div>
+                      </div>
+                        <div class="c-block">
+                          <h4>CADSUS WEB</h4>
+                          <h5 class="bt-block">Abrir</h5>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="http://52.67.73.91/ciscomcam/IDS/IDSSaude.html" target="_blank">
+                    <div class="block f-ubuntu">
+                      <div class="img-block">
+                        <div style="background: url(/img/icons/ids.svg) no-repeat"></div>
+                      </div>
+                      <div class="c-block">
+                        <h4>CISCOMCAM</h4>
+                        <h5 class="bt-block">Abrir</h5>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="/files/WinSaudeCampoMouraoPadrao.exe">
+                    <div class="block f-ubuntu">
+                      <div class="img-block">
+                        <div style="background: url(/img/icons/html5.svg) no-repeat"></div>
+                      </div>
+                      <div class="c-block">
+                        <h4>WINSAÚDE</h4>
+                        <h5 class="bt-block">Abrir</h5>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------->
+    <!---------------- TUTURIALS ----------------->
+    <!-------------------------------------------->
+    <section class="container-fluid section-dark" id="bd-tutorials">
+      <div class="row">
+        <div class="container" id="ct-tutorial">
+          <div class="row">
+            <header class="col-12">
+              <h2>DICAS E TUTORIAIS</h2>
+            </header>
+          </div>
+          <article class="row content-sub-t">
+            <div class="col-12">
+              <h3>A Divisão de Informática está disponibilizando alguns materiais de apoio para te ajudar nas dúvidas na utilização do computador e dos sistemas da saúde.</h3>
+            </div>
+          </article>
+          <article class="row content-area">
+            <div class="col-12 bt-link">
+              <a href="https://drive.google.com/open?id=1WNHdGVB7uzYI8uMhbPmzm2Vel3WgvfAd" class="" target="_blank">
+                <h4>Acessar</h4>
+              </a>
+            </div> 
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------->
+    <!----------------- SUPPORT ------------------>
+    <!-------------------------------------------->
+    <section class="container-fluid" id="bd-support">
+      <div class="row">
+        <div class="container" id="ct-support">
+          <div class="row">
+            <header class="col-12">
+              <h2>SUPORTE</h2>
+            </header>
+          </div>
+          <article class="row content-sub-t">
+            <div class="col-12">
+              <h3>Durante um atendimento, nós da informática, poderemos solicitar uma conexão remota, para isso você precisará executar um dos aplicativos abaixo.</h3>
+            </div>
+          </article>
+          <article class="row content-area">
+            <a class="col-6" href="https://anydesk.com/pt/" target="_blank">
+              <svg version="1.1" id="anydesk" x="0px" y="0px" viewBox="0 0 600 110.9" style="enable-background:new  0 600 110.9;" xml:space="preserve"><path d="M93.3,0.1L82.2,11l38.5,38.5L82.2,88l11.1,10.9l49.4-49.4"/><path d="M0,49.5L49.4,0.1l49.5,49.5L49.4,99L0,49.5z M212.6,86.4l-5.2-17.5h-26.8l-5.2,17.5h-16.7l25.8-73.6h18.9l26,73.6H212.6z M203.5,55.9c-4.8-15.7-7.7-24.8-8.3-26.8s-1-3.6-1.4-4.8c-1,4.2-4.2,14.9-9.5,31.6C184.4,55.9,203.5,55.9,203.5,55.9z M289,86.4 h-15.3V53.5c0.2-3.2-0.6-6.2-2.2-9.1c-1.6-2-4.2-3.2-6.9-3c-3.6-0.4-7.1,1.4-9.3,4.2c-1.8,2.8-2.8,7.7-2.8,14.1v26.4h-15.3V30.4 h11.7l2,7.3h0.8c1.6-2.6,4.2-4.8,7.1-6c3.2-1.4,6.7-2,10.3-2c6.4,0,11.5,1.8,14.9,5.2s5,8.7,5.2,15.1v36.5L289,86.4L289,86.4z M295.2,30.3h16.7l10.5,31.4c1,3.2,1.6,6.4,1.8,9.7h0.2c0.4-3.2,1-6.7,2.2-9.7l10.3-31.4h16.3l-23.6,63.1c-1.8,5.2-5,9.9-9.3,13.1 c-4,3-9.1,4.4-14.1,4.4c-2.6,0-5.2-0.2-7.7-0.8V98c2,0.4,4,0.6,6,0.6c2.6,0,5-0.8,7.1-2.4c2.2-2,3.8-4.6,4.8-7.5l0.8-2.8 C317.4,85.9,295.2,30.3,295.2,30.3z M423.6,48.9c0,12.1-3.4,21.2-10.3,27.6s-16.7,9.7-29.6,9.7h-21V13h23c12.1,0,21.4,3.2,27.8,9.5 C420.2,28.9,423.4,37.6,423.6,48.9z M407.3,49.3c0-15.7-6.9-23.6-20.8-23.6h-8.3v47.8h6.7C399.8,73.5,407.5,65.4,407.3,49.3z M460.3,87.4c-9.1,0-16.1-2.4-21.2-7.5s-7.7-12.1-7.7-21.2c0-9.3,2.4-16.5,7.1-21.8c4.6-5.2,11.1-7.7,19.6-7.7 c7.9,0,14.1,2.2,18.5,6.9c4.4,4.4,6.7,10.7,6.7,18.7v7.5h-36.1c0,3.8,1.4,7.5,3.8,10.3c2.8,2.6,6.4,3.8,10.1,3.6 c3.2,0,6.4-0.4,9.5-1c3.2-0.8,6.4-1.8,9.5-3.4v11.9c-2.6,1.4-5.6,2.4-8.5,3C467.8,87,464.1,87.4,460.3,87.4z M458.1,40.3 c-2.8-0.2-5.6,1-7.7,3c-2,2.4-3,5.6-3.2,8.7h21.4c0.2-3.2-1-6.2-3-8.7C463.7,41,461.1,40,458.1,40.3z M534.7,69.6 c0.2,5-2,10.1-6,13.1s-10.1,4.4-17.9,4.4c-3.4,0-7.1-0.2-10.5-0.8c-2.8-0.6-5.4-1.4-8.1-2.4V71.3c3,1.4,6.2,2.6,9.7,3.4 c3,0.8,6.2,1.2,9.5,1.4c5.6,0,8.3-1.6,8.3-4.8c0-1-0.4-2.2-1-3c-1.2-1-2.4-1.8-3.8-2.6c-1.8-1-4.2-2-7.3-3.4c-3.4-1.2-6.4-3-9.5-5 c-1.8-1.4-3.4-3.2-4.4-5.2c-1-2.4-1.4-4.8-1.4-7.3c-0.2-4.6,2-8.9,5.8-11.5s9.3-4,16.3-4c6.9,0,13.5,1.4,19.8,4.4l-4.6,11.1 c-2.8-1.2-5.4-2.2-7.9-3c-2.4-0.8-4.8-1.2-7.5-1.2c-4.4,0-6.9,1.2-6.9,3.6c0,1.4,0.8,2.8,2.2,3.6c3,1.8,6.2,3.2,9.5,4.4 c3.4,1.2,6.7,2.8,9.7,5c1.8,1.4,3.4,3.2,4.4,5.2C534.3,64.8,534.7,67.3,534.7,69.6L534.7,69.6z M559.1,55.9l6.7-8.5l15.7-17.1h17.3 l-22.4,24.2L600,86.1h-17.7l-16.1-22.8l-6.7,5.2v17.5h-15.3V8.3h15.3v34.9l-0.8,12.7L559.1,55.9L559.1,55.9z"/> </svg>
+            </a>
+            <a class="col-6" href="https://www.teamviewer.com/pt-br/#" target="_blank">
+              <svg id="teamviewer" viewBox="0 0 686.2 155.91" style="enable-background:new 0 600 110.9;"><polygon class="cls-1" points="62.69 56.09 56.92 70.11 99.4 70.11 93.62 56.09 136.77 77.94 93.62 99.8 99.4 85.78 56.92 85.78 62.65 99.8 19.38 77.94 62.69 56.09"/><path class="cls-1" d="M146.8,156.2H9.13A9.17,9.17,0,0,1,0,147.06V9.42A9.17,9.17,0,0,1,9.13.28H146.8a9.17,9.17,0,0,1,9.13,9.14V147.06A9.17,9.17,0,0,1,146.8,156.2ZM77.38,14C42.26,14.29,14,43.1,13.7,78.23,13.44,114,42.16,142.45,78,142.48c35.18,0,63.64-29.23,64.25-64.25C142.83,42,113.58,13.67,77.38,14Z" transform="translate(0 -0.28)"/><polygon class="cls-1" points="207.1 110.97 207.1 57.1 187.89 57.1 187.89 44.62 242 44.62 242 57.1 222.79 57.1 222.79 110.97 207.1 110.97"/><path class="cls-1" d="M255.57,113c-4,0-11.59-.76-16.53-5.89-4-4.2-6.06-10.32-6.06-18.21,0-10.16,3.29-17.58,9.76-22.08a23.67,23.67,0,0,1,13.19-3.91c5,0,14.16,1.48,19,11.39,3.26,6.62,2.92,13.86,2.77,17l0,.83H247.44c.12,4.67,1.3,10.31,8.31,10.31,3.83,0,6.06-1.78,7-5.59l.17-.67h13.7l-.08,1A16,16,0,0,1,272,107.41C268.68,110.93,262.68,113,255.57,113Zm6.88-31c-.17-4-1.59-8.34-7-8.34-5.8,0-7.21,5.26-7.53,8.34Z" transform="translate(0 -0.28)"/><path class="cls-1" d="M299.78,112.33c-7,0-10.14-2.18-11.86-3.82A14.92,14.92,0,0,1,283.72,98c0-3.8,1.3-10.78,10.07-14.83,5.35-2.41,12.83-2.57,17.35-2.58a14.5,14.5,0,0,0-.58-4.83c-1.05-3-4.4-3.15-5.06-3.15a5.12,5.12,0,0,0-4.28,2.12,6,6,0,0,0-.82,3.52v.88H285.65l0-.92c.09-2.27.28-7.6,5.46-11.31,3.54-2.54,8.31-3.83,14.18-3.83,4.29,0,12.17.8,16.75,6.12,3.34,4,3.34,9.76,3.34,11.65l.09,18.14a54.26,54.26,0,0,0,1.05,11.26l.23,1.06H313l-.12-.75a37.28,37.28,0,0,1-.41-3.81A15.64,15.64,0,0,1,299.78,112.33Zm9.62-22.45c-5.35,0-11.06,1.72-11.06,6.56a5.32,5.32,0,0,0,5.55,5.55,6.62,6.62,0,0,0,5-2.28c2-2.46,2.26-5.51,2.28-9.77-.59,0-1.18-.06-1.74-.06Z" transform="translate(0 -0.28)"/><path class="cls-1" d="M393.08,111.26V83.84c0-5.58-1.14-9.3-6.72-9.3-6.71,0-7.25,5.73-7.25,13.23v23.49H364V83.57c0-4.37-.5-9-6.53-9-7.43,0-7.43,6.28-7.43,9.3v27.42H335V73.75c0-2.51-.14-5.18-.44-8.41l-.09-1H349l.33,4.39c2.07-2.31,6-5.37,13.23-5.37,4.76,0,10.93,1.34,14.28,7.47,3.14-5,7.86-7.38,14.4-7.38,9.3,0,13.26,5.38,14.53,7.69,2.37,3.86,2.36,9.14,2.35,13v27.1H393.08Z" transform="translate(0 -0.28)"/><polygon class="cls-1" points="436.78 110.97 412.55 44.71 420.77 44.71 440.96 101.89 460.89 44.71 468.57 44.71 444.62 110.97 436.78 110.97"/><path class="cls-1" d="M474.21,111.26V64.65h7.12v46.61Zm-.44-57.81V45h8v8.45Z" transform="translate(0 -0.28)"/><path class="cls-1" d="M511.11,112.6c-14.19,0-20.54-12.38-20.54-24.65,0-11.87,6.54-24.64,20.9-24.64,13.76,0,21.33,9.2,21.33,25.89v.88H498.17c.28,5.4,2.4,15.84,14.64,15.84a12.43,12.43,0,0,0,12.09-10l.15-.7h7.48l-.29,1.1C529.41,107.27,522.49,112.6,511.11,112.6Zm14-29.19c-.92-8.55-5.84-13.43-13.6-13.43-8.38,0-12.25,7-13.13,13.43Z" transform="translate(0 -0.28)"/><polygon class="cls-1" points="585.53 110.97 572.3 73.76 558.81 110.97 552.13 110.97 535.04 64.37 542.82 64.37 555.7 100.67 568.74 64.37 576.32 64.37 589.01 100.27 601.43 64.37 609.22 64.37 591.86 110.97 585.53 110.97"/><path class="cls-1" d="M631.63,112.6c-14.18,0-20.53-12.38-20.53-24.65,0-11.87,6.54-24.64,20.89-24.64,13.76,0,21.34,9.2,21.34,25.89v.88H618.69c.28,5.4,2.4,15.84,14.64,15.84a12.42,12.42,0,0,0,12.09-10l.16-.7h7.47l-.29,1.1C649.93,107.27,643,112.6,631.63,112.6Zm14-29.19c-.93-8.55-5.85-13.43-13.6-13.43-8.39,0-12.26,7-13.13,13.43Z" transform="translate(0 -0.28)"/><path class="cls-1" d="M663.45,111.26V75.63c.07-2.62-.12-5.34-.29-7.74-.06-.79-.11-1.56-.15-2.3l-.06-.93h7.32l.17,4.34a12.06,12.06,0,0,1,9.49-5.68c.53,0,1.06,0,1.6,0,1.28,0,2.57.06,3.82.13l.84,0v7l-1-.08c-.44,0-.89-.1-1.35-.17A14.77,14.77,0,0,0,682,70c-7.1,0-11.27,4.89-11.45,13.43v27.84Z" transform="translate(0 -0.28)"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!--Layout do Rodapé e Importações JS-->
+    <%- include('./layouts/footer') %>
+  </body>
+</html>
