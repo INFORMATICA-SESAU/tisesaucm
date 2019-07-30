@@ -2,7 +2,7 @@
   "name": "ti.sesau",
   "version": "1.0.0",
   "engines": {
-    "node": "11.13.0"
+    "node": "11.13.0",
     "npm": "6.7.0"
   }
   "scripts": {
