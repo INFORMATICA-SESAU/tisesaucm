@@ -1,7 +1,10 @@
 {
   "name": "ti.sesau",
   "version": "1.0.0",
-  "private": true,
+  "engines": {
+    "node": "11.13.0"
+    "npm": "6.7.0"
+  }
   "scripts": {
     "start": "nodemon ./bin/www"
   },
